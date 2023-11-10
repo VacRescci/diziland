@@ -1,6 +1,7 @@
 * {
     scrollbar-width: none;
     scrollbar-color: #ff3838 #ffffff;
+    box-sizing: border-box;
 }
 
 *::-webkit-scrollbar {
@@ -225,24 +226,49 @@ footer p {
 
 .social-icons {
     margin-top: 20px;
+    text-align: center;
 }
 
 .social-icons a {
     color: #e8491d;
     font-size: 28px;
     margin-right: 20px;
-}
-
-.social-icons i {
-    margin-left: 5px;
     transition: transform 0.3s;
 }
 
-.social-icons i:hover {
+.social-icons a:hover {
     transform: scale(1.2);
 }
 
 nav ul {
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Ekran genişliği 768px'den küçükse buradaki stilleri uygula */
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        padding: 15px 0;
+        min-height: 50px;
+    }
+
+    header #branding h1 {
+        font-size: 24px;
+    }
+
+    header a {
+        font-size: 16px;
+    }
+
+    header li {
+        margin: 0 10px;
+    }
+
+    .movie-card {
+        width: calc(50% - 20px);
+    }
 }
