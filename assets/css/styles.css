@@ -45,7 +45,8 @@ body::after {
 }
 
 .page-title {
-    margin-bottom: 25px;
+    margin-bottom: 35px;
+	margin-top: 15px;
     box-shadow: -1px 6px 0px -1px rgba(255, 114, 114, 1);
     -webkit-box-shadow: -1px 6px 0px -1px rgba(255, 114, 114, 1);
     -moz-box-shadow: -1px 6px 0px -1px rgba(255, 114, 114, 1);
