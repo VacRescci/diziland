@@ -169,6 +169,7 @@ header li {
 
 .movie-card img {
     max-width: 200px;
+	user-select: none;
     max-height: 300px;
     object-fit: cover;
     border-radius: 5px;
