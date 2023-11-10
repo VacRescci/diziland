@@ -191,7 +191,8 @@ header li {
 .movie-card .imdb, .movie-card .release-date {
     font-size: 18px;
     color: white;
-    margin-bottom: 5px;
+	margin-top: 20px;
+	margin-bottom: 12px;
 }
 
 .movie-card .watch-button {
@@ -416,7 +417,8 @@ nav ul {
     .movie-card .release-date {
         font-size: 18px;
         color: white;
-        margin-bottom: 5px;
+		margin-top: 20px;
+        margin-bottom: 12px;
     }
 
     .movie-card .watch-button {
