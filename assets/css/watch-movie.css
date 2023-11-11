@@ -62,8 +62,8 @@ header {
 }
 
 header img {
-	width: 220px;
-	height: 65px;
+    width: 220px;
+    height: 65px;
 }
 
 
@@ -96,12 +96,6 @@ header a:hover::after {
     width: 100%;
 }
 
-header li {
-    display: inline;
-    margin: 0 20px;
-    font-weight: bold;
-}
-
 header #branding {
     float: left;
 }
@@ -113,9 +107,13 @@ header #branding h1 {
 
 header nav {
     float: right;
+    margin-top: 5px;
     font-weight: bold;
-    margin-top: 10px;
-	font-weight: bold;
+}
+
+header li {
+    display: inline;
+    margin: 0 20px;
 }
 
 .video-container {
