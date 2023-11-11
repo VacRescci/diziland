@@ -57,22 +57,22 @@ body::after {
 header {
     background: rgba(18, 18, 18, 0.3);
     color: white;
-    padding: 30px 0;
+    padding: 20px 0;
     min-height: 70px;
     border-bottom: 3px solid #e8491d;
 }
 
 header img {
-	width: 220px;
-	height: 65px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
 }
-
 
 header a {
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -92,9 +92,13 @@ header a::after {
     transition: width 0.3s ease-in-out;
 }
 
-
 header a:hover::after {
     width: 100%;
+}
+
+header li {
+    display: inline;
+    margin: 0 10px;
 }
 
 header #branding {
@@ -103,27 +107,13 @@ header #branding {
 
 header #branding h1 {
     margin: 0;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 header nav {
     float: right;
-    margin-top: 5px;
-	font-weight: bold;
-}
-
-header li {
-	display: inline;
-    margin: 0 20px;
-}
-
-.header-links {
-    display: flex;
-    align-items: center;
-}
-
-.header-links a {
-    margin: 0 20px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 #main-col {
@@ -288,7 +278,6 @@ nav ul {
         overflow: hidden;
     }
 
-    /* Header Stilleri */
     header {
         background: rgba(18, 18, 18, 0.3);
         color: white;
@@ -347,7 +336,7 @@ nav ul {
 
     header nav {
         float: right;
-        margin-top: 20px;
+        margin-top: 10px;
         font-weight: bold;
     }
 
