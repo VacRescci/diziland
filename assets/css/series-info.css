@@ -329,3 +329,67 @@ footer p {
 .social-icons i:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .header-container {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-box img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .info-details {
+    width: 100%;
+  }
+
+  .seasons {
+    margin-top: 20px;
+  }
+
+  .season {
+    margin-right: 0;
+  }
+
+  .details {
+    padding: 10px;
+  }
+
+  .notification {
+    padding: 10px;
+  }
+
+  header img {
+    max-width: 150px;
+  }
+
+  header nav {
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  header li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+  }
+}
