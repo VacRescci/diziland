@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Attack On Titan">
+    <meta name="image" content="/assets/img/logo.png">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="AllyMovie">
+    <meta itemprop="description" content="Attack On Titan">
+    <meta itemprop="image" content="/assets/img/logo.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://animesekai.com.tr">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AllyMovie">
+    <meta property="og:description" content="Attack On Titan">
+    <meta property="og:image" content="/assets/img/logo.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AllyMovie">
+    <meta name="twitter:description" content="Attack On Titan">
+    <meta name="twitter:image" content="/assets/img/logo.png">
+    <link rel="icon" href="/assets/ico/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Attack On Titan | AllyMovie</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/series-info.css">
+    <script type="text/javascript" src="/assets/js/series.js"></script>
+</head>
+
+<body>
+  <div class="notification" id="notification">
+      Bu sezon henüz eklenmedi.
+  </div>
+    <header>
+        <div class="header-container">
+            <div id="branding">
+                <a href="/">
+                    <img src="assets/img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Anasayfa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="info-box">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTWW4wvzwA9V0xdjG-kF_yXQH__lV5ciORmTPCi4iO6OzxzhJi"
+                alt="Dizi Thumbnail" class="thumbnail">
+            <div class="info-details">
+                <div class="anime-name" id="english"><b><i>Attack on Titan</i></b></div>
+                <div class="anime-name" id="japanese"><b><i>進撃の巨人</i></b></div>
+                <div class="info-item" id="anime-description">Yüzyıllar evvel insanoğlu devler tarafından yok olmanın eşiğine getirilmiştir. Devler tıpkı anlatılagelmiş hikayelerdeki gibi, uzun, zekadan yoksun görünen, insanları yiyen ve de en kötüsü bunu beslenmek için değil zevk için yapan varlıklardır. Az sayıdaki insan, en uzun devlerden bile yüksek duvarlar inşa ederek çevreledikleri bir şehrin koruması altında hayatta kalmıştır. Şu anki zaman diliminde ise 100 yılı aşkın bir süredir tek bir dev dahi şehre ayak basmamıştır. Henüz erginliğe erişmemiş bir çocuk olan Eren ile sütkardeşi Mikasa, bir anda ortaya çıkan inanılmaz büyük bir devin saldırısı sonucu şehrin surlarının yıkılmasına tanık olurlar. Nispeten daha küçük olan devler surlarda açılan gedikten şehre akın ederler ve bu iki çocuk dehşet içerisinde annelerinin bir dev tarafından canlı canlı yenilişini izlerler. Eren bütün devleri öldürüp insanlığın intikamını alacağına yemin eder.</div>
+                <div class="info-item"><b>Anime Türü:</b> <p id="genre">Fantastik</p>  <p id="genre">Aksiyon</p>  <p id="genre">Shounen</p>  <p id="genre">Süper Güçler</p>  <p id="genre">Askeri</p>  <p id="genre">Gizem</p>  <p id="genre">Dram</p></div>
+                <div class="info-item"><b>IMDb:</b> 9.1</div>
+                <div class="info-item"><b>Yapım Yılı:</b> 2013</div>
+            </div>
+        </div>
+        <div class="seasons">
+            <div class="season" onclick="toggleSeason(1)"><i class="fas fa-tv"></i> Sezon 1</div>
+            <div class="season" onclick="showNotification()"><i class="fas fa-tv"></i> Sezon 2</div>
+            <div class="season" onclick="showNotification()"><i class="fas fa-tv"></i> Sezon 3</div>
+            <div class="season" onclick="showNotification()"><i class="fas fa-tv"></i> Sezon 4</div>
+        </div>
+        <div class="episodes" id="season1">
+            <a href="season/1/episode-1.html"><button class="episode">Bölüm 1 <span class="episode-name">2000 Yıl Sonra Size - Shiganshina'nın Düşüşü: Bölüm 1</span></button></a>
+            <a href="season/1/episode-2.html"><button class="episode">Bölüm 2 <span class="episode-name">O Gün - Shiganshina'nın Düşüşü: Bölüm 2</span></button></a>
+            <a href="season/1/episode-3.html"><button class="episode">Bölüm 3 <span class="episode-name">Umutsuzluğun Ortasında Sönük Bir Işık - İnsanlığın Geri Dönüşü: Bölüm 1</span></button></a>
+            <a href="season/1/episode-4.html"><button class="episode">Bölüm 4 <span class="episode-name">Kapanış Töreni Gecesi - İnsanlığın Geri Dönüşü: Bölüm 2</span></button></a>
+            <a href="season/1/episode-5.html"><button class="episode">Bölüm 5 <span class="episode-name">İlk Savaş - Trost için Mücadele: Bölüm 1</span></button></a>
+            <a href="season/1/episode-6.html"><button class="episode">Bölüm 6 <span class="episode-name">Genç Bir Kızın Gördüğü Dünya - Trost'a Saldırı: Bölüm 2</span></button></a>
+            <a href="season/1/episode-7.html"><button class="episode">Bölüm 7 <span class="episode-name">Küçük Bıçak - Trost için Mücadele: Bölüm 3</span></button></a>
+            <a href="season/1/episode-8.html"><button class="episode">Bölüm 8 <span class="episode-name">Kalp Atışlarını Duyabiliyorum - Trost için Mücadele: Bölüm 4</span></button></a>
+            <a href="season/1/episode-9.html"><button class="episode">Bölüm 9 <span class="episode-name">Sol Kolun İzi: Trost Bölgesi Savaşı, Bölüm 5</span></button></a>
+            <a href="season/1/episode-10.html"><button class="episode">Bölüm 10 <span class="episode-name">Yanıt - Trost'a Saldırı: Bölüm 6</span></button></a>
+            <a href="season/1/episode-11.html"><button class="episode">Bölüm 11 <span class="episode-name">Idol - Trost'a Saldırı: Bölüm 7</span></button></a>
+            <a href="season/1/episode-12.html"><button class="episode">Bölüm 12 <span class="episode-name">Yara - Trost için Mücadele: Bölüm 8</span></button></a>
+            <a href="season/1/episode-13.html"><button class="episode">Bölüm 13 <span class="episode-name">İlkel Arzu - Trost için Mücadele: Bölüm 9</span></button></a>
+            <a href="season/1/episode-14.html"><button class="episode">Bölüm 14 <span class="episode-name">Hala Gözlerinin İçine Bakamıyorum - Karşı Saldırı Arifesi: Bölüm 1</span></button></a>
+            <a href="season/1/episode-15.html"><button class="episode">Bölüm 15 <span class="episode-name">Özel Taktik Kuvvet - Karşı Saldırı Arifesi: Bölüm 2</span></button></a>
+            <a href="season/1/episode-16.html"><button class="episode">Bölüm 16 <span class="episode-name">Yapılması Gerekenler - Karşı Saldırının Başlangıcı: Bölüm 3</span></button></a>
+            <a href="season/1/episode-17.html"><button class="episode">Bölüm 17 <span class="episode-name">Dişi Titan - 57. Keşif Seferi: Bölüm 1</span></button></a>
+            <a href="season/1/episode-18.html"><button class="episode">Bölüm 18 <span class="episode-name">Dev Ağaçlar Ormanı - Duvarların Ötesinde 57. Keşif Gezisi: Bölüm 2</span></button></a>
+            <a href="season/1/episode-19.html"><button class="episode">Bölüm 19 <span class="episode-name">Bite - 57. Keşif Gezisi: Bölüm 3</span></button></a>
+            <a href="season/1/episode-20.html"><button class="episode">Bölüm 20 <span class="episode-name">Erwin Smith - 57. Keşif Gezisi: Bölüm 4</span></button></a>
+            <a href="season/1/episode-21.html"><button class="episode">Bölüm 21 <span class="episode-name">Demir Çekiç - 57. Sefer: Bölüm 5</span></button></a>
+            <a href="season/1/episode-22.html"><button class="episode">Bölüm 22 <span class="episode-name">Yenilenler - Duvarların Ötesine 57. Sefer: Bölüm 6</span></button></a>
+            <a href="season/1/episode-23.html"><button class="episode">Bölüm 23 <span class="episode-name">Smile - Stohess Bölge Baskını: Bölüm 1</span></button></a>
+            <a href="season/1/episode-24.html"><button class="episode">Bölüm 24 <span class="episode-name">Mercy - Stohess Bölgesine Baskın: Bölüm 2</span></button></a>
+            <a href="season/1/episode-25.html"><button class="episode">Bölüm 25 <span class="episode-name">Duvar - Stohess Bölgesi Baskını: Bölüm 3</span></button></a>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 AllyMovie. Tüm hakları saklıdır.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook" style="color: #1877F2;"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter" style="color: darkgray;"></i></a>
+                <a href="#"><i class="fab fa-instagram" style="color: #e75480;"></i></a>
+                <a href="#"><i class="fab fa-linkedin" style="color: white;"></i></a>
+                <a href="#"><i class="fab fa-youtube" style="color: red;"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
