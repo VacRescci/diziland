@@ -326,3 +326,51 @@ a {
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .header img {
+        max-width: 150px;
+    }
+
+    header nav {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    header li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .video-container {
+        padding-bottom: 56.25%;
+        padding-top: 20px;
+    }
+
+    .movie-details-container {
+        margin-left: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .season {
+        margin-right: 0;
+    }
+
+    .episode {
+        width: 100%;
+        margin-left: 0;
+    }
+}
